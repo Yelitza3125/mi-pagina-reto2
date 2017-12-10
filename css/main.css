@@ -39,6 +39,7 @@ header {
     background-color: #e9ada3;
     line-height: 100px;
     overflow: auto;
+    /*position: fixed; */
 }
 
 header h1 {
@@ -158,6 +159,11 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+
+    .responsive {
+        position:fixed;
+    }
+
     .nav-bar {   
         display: inline-block;
     }

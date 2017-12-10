@@ -4,6 +4,7 @@
     padding: 0;
 }
 
+/*Estilos generales */
 body {
     font-family: 'Muli', sans-serif;
 }
@@ -25,6 +26,7 @@ body {
     color: #fff;
     background-color: #044a86;
 }
+
 /*
 .fixed {
     position: fixed;
@@ -66,7 +68,6 @@ header h1 {
 
 .nav-bar {
     display: none;
-
 }
 
 section.imagen {
@@ -88,7 +89,6 @@ section.imagen {
     background-size: cover;
     height: 500px;
     text-align: center;
-    /*text-transform: uppercase; */
     line-height: 500px;
 }
 
@@ -118,10 +118,8 @@ section.information input:hover{
     background-color: #f5c7b1;
 }
 
+
 /*Estilo de la seccion gallery */
-
-
-
 
 .gallery {
     margin-top: 40px;
@@ -136,6 +134,14 @@ section.information input:hover{
 input.find {
    padding: 10px 20px;
 }
+
+
+ input.find:hover{
+    cursor: pointer;
+    color: #044a86;
+    background-color: #f5c7b1;
+}
+
 
 /*Estilo de footer */
 
@@ -182,3 +188,17 @@ footer {
     }
 
 }
+
+/*Estilo del menu hamburguesa */
+ .menu-modal {
+    line-height: auto;
+    display: inline;
+ }
+
+ .list {
+     line-height: 50px;
+ }
+
+ .title {
+     line-height: 70px;
+ }

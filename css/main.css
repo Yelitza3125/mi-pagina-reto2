@@ -8,8 +8,6 @@ body {
     font-family: 'Muli', sans-serif;
 }
 
-/*Clases generales */
-
 .capitalize {
     text-transform: capitalize;
 }
@@ -19,26 +17,77 @@ body {
 
 header {
     background-color: #e9ada3;
-    width: 100%;
-    height: 100px;
     line-height: 100px;
+    overflow: auto;
+}
+
+header h1 {
+    color: #fff;
+    display: inline-block;
 }
 
 /*Estilo del menú */
 
 .menu {
-    overflow: auto;
+    float: right;
 }
+
 .menu ul {
     list-style: none;
-    float: left;
 }
 
 .menu ul li {
-    margin-right: 1em;
+    margin-right: 15px;
     display: inline-block;
 }
 
 .menu ul li:hover {
     color: #fff;
+}
+
+.nav-bar {
+    display: none;
+
+}
+
+section.imagen {
+    background-image: url("../assets/images/santorini.jpg");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    line-height: 500px;
+}
+
+section.imagen h1 {
+ color:#fff;
+}
+
+/*Estilos imagen central */
+
+section.imagen {
+    background-image: url("../assets/images/santorini.jpg");
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    /*text-transform: uppercase; */
+    line-height: 500px;
+}
+
+section.imagen h1 {
+ color:#fff;
+}
+
+
+@media screen and (max-width: 768px) {
+    .nav-bar {   
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 18px;;
+    }
 }

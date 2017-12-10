@@ -14,7 +14,11 @@
     width: 100%;
   }
   
-  
+ .row {
+  width: 100%;
+ }
+
+
   .row::after {
     content: "";
     display: table;
@@ -22,9 +26,10 @@
   }
 
   
+  
   [class*='col-'] {
     float: left;
-  }
+  } 
   
   .col-xs-1 {
     width: 8.33333333%;

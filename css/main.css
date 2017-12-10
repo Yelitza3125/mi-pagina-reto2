@@ -12,6 +12,11 @@ body {
     text-transform: capitalize;
 }
 
+/*
+.fixed {
+    position: fixed;
+    z-index: 900;
+} */
 
 /*Estilo de Header */
 
@@ -43,6 +48,7 @@ header h1 {
 
 .menu ul li:hover {
     color: #fff;
+    cursor: pointer;
 }
 
 .nav-bar {
@@ -78,6 +84,37 @@ section.imagen h1 {
 }
 
 
+/*Estilo de la sección information */
+
+section.information {
+    margin-top: 20px;
+}
+
+section.information h1 {
+    margin-bottom: 10px;
+    color: #044a86;
+    
+}
+
+section.information p.text {
+    text-align: justify;
+}
+
+section.information input {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #044a86;
+}
+
+section.information input:hover{
+    cursor: pointer;
+    color: #044a86;
+    background-color: #f5c7b1;
+}
+
 @media screen and (max-width: 768px) {
     .nav-bar {   
         display: inline-block;
@@ -89,5 +126,15 @@ section.imagen h1 {
 
     header h1 {
         font-size: 18px;;
+    }
+
+    .plis {
+        width: 80% !important;
+    }
+
+    .contact {
+        margin-top: 20px;
+        clear: both;
+        width: 80% !important;
     }
 }

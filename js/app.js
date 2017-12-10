@@ -2,7 +2,6 @@ window.addEventListener('load', function() {
      var btn = document.getElementById('btn');
      var menu = document.getElementById('menu');
      
-     
 
     btn.addEventListener('click', function showMenu(event) {
         var list = document.getElementById('list');
@@ -11,5 +10,7 @@ window.addEventListener('load', function() {
         list.classList.add('list');
         title.classList.add('title');
 
-    })    
+    }) 
+
 });
+

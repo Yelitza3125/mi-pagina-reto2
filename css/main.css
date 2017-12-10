@@ -195,6 +195,14 @@ footer {
 
 }
 
+
+@media screen and (min-width : 769px) {
+    header {
+        line-height: 100px;
+    }
+}
+
+
 /*Estilo del menu hamburguesa */
  .menu-modal {
     line-height: auto;

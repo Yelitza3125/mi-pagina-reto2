@@ -137,6 +137,18 @@ input.find {
    padding: 10px 20px;
 }
 
+/*Estilo de footer */
+
+footer {
+    font-size: 15px;
+    margin-top: 30px;
+    height: 50px;
+    line-height: 50px;
+    background-color: #e9ada3;
+    color: #044a86;
+    text-align: center;
+}
+
 
 
 @media screen and (max-width: 768px) {

@@ -18,6 +18,13 @@ body {
     color: #044a86;
 }
 
+.btn {
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #044a86;
+}
 /*
 .fixed {
     position: fixed;
@@ -101,13 +108,8 @@ section.information p.text {
     text-align: justify;
 }
 
-section.information input {
-    margin-top: 20px;
+input.see {
     padding: 10px 30px;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    background-color: #044a86;
 }
 
 section.information input:hover{
@@ -123,16 +125,22 @@ section.information input:hover{
     height: 182px;
 } 
 
-/*
+
 .gallery {
     margin-top: 40px;
-} */
+} 
 
-.gallery p {
+.text p {
     text-align: justify;
     width: 90%;
     margin-bottom: 10px;
 } 
+
+input.find {
+   padding: 10px 20px;
+}
+
+
 
 @media screen and (max-width: 768px) {
     .nav-bar {   

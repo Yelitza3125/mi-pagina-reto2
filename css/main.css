@@ -60,10 +60,15 @@ header h1 {
 .menu ul li {
     margin-right: 15px;
     display: inline-block;
+    color: #fff;
+}
+
+.menu ul li i {
+    margin-right: 5px;
 }
 
 .menu ul li:hover {
-    color: #fff;
+    color: #044a86;
     cursor: pointer;
 }
 
@@ -177,22 +182,29 @@ footer {
     }
 
     .text-information {
-        width: 80% !important;
+        width: 70% !important;
     }
 
     .contact {
         margin-top: 20px;
-        clear: both;
+        margin-left: 18% !important;   
         width: 80% !important;
     }
 
     .container-gallery {
-        float: none !important;
-        width: 80% !important;
+        width: 75% !important;
         margin-top: 30px;
-        margin-left: 30px;
+        margin-left: 18%;
     }
 
+    .container-gallery input {
+        margin-left: 20%;
+        margin-bottom: 20px; 
+    }
+
+    .menu ul li i {
+        display: none;
+    }
 }
 
 
@@ -214,5 +226,5 @@ footer {
  }
 
  .title {
-     line-height: 70px;
+     line-height: 80px;
  }
